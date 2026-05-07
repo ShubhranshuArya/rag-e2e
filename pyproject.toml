@@ -1,0 +1,14 @@
+[project]
+name = "rag-e2e"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "langchain>=1.2.17",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.3.3",
+    "pymupdf>=1.27.2.3",
+    "pypdf>=6.10.2",
+]
