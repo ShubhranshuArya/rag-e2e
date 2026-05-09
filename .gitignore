@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.env
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+*.db
+*.log
+*.sqlite3
+# VSCode settings (optional)
+.settings/
+# Python virtual environments
+.venv/
+venv/
+# Mac/Linux standard other
+Thumbs.db
+# Common data/cache folders
+.cache/
+*.pkl
+*.pdf
+cloned-docs
+data
