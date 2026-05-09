@@ -5,6 +5,7 @@ __pycache__/
 *.env
 .DS_Store
 .ipynb_checkpoints/
+notebook/
 .vscode/
 *.db
 *.log
@@ -22,3 +23,4 @@ Thumbs.db
 *.pdf
 cloned-docs
 data
+faiss_store/
