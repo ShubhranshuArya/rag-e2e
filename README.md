@@ -11,11 +11,9 @@ A production-grade **Retrieval-Augmented Generation (RAG)** pipeline built from 
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
   <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
   <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white" />
-  <img src="https://img.shields.io/badge/ChromaDB-FF6719?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Typesense-D42EF0?style=for-the-badge&logoColor=white" />
+  
   <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Llama_3.2-0467DF?style=for-the-badge&logo=meta&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
 </p>
 
@@ -134,9 +132,3 @@ response = llm.invoke([prompt])
 | Chunking with overlap                 | Prevents semantic context loss at chunk boundaries                |
 | FAISS over ChromaDB for primary store | Lower latency, no server dependency, pure in-memory ANN           |
 | Groq for inference                    | Fastest open-model inference available; ideal for low-latency RAG |
-
----
-
-## Project Structure
-
-Key takeaway: retrieval narrows the search space, re-ranking sharpens relevance, and the LLM answers with context instead of guessing.
